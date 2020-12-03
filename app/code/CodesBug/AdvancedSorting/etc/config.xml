@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <sparshadvancedsorting>
+            <general>
+                <enabled>1</enabled>
+                <selectsort>best_seller,top_rated,new_arrivals,low_to_high_price,high_to_low_price,most_viewed,review_count</selectsort>
+            </general>
+        </sparshadvancedsorting>
+    </default>
+</config>

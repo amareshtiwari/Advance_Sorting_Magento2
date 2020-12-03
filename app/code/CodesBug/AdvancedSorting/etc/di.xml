@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+   <type name="Magento\Catalog\Model\Config">
+      <plugin name="sortoption" type="CodesBug\AdvancedSorting\Plugin\AddSortOption" />
+   </type>
+   <type name="Magento\Catalog\Model\ResourceModel\Product\Collection">
+      <plugin name="productCollection" type="CodesBug\AdvancedSorting\Plugin\ProductCollection" />
+   </type>
+    <preference for="Magento\Catalog\Block\Product\ProductList\Toolbar" type="CodesBug\AdvancedSorting\Block\Product\ProductList\Toolbar" />
+</config>
